@@ -49,9 +49,9 @@ query_result2 = cursor.fetchall()
 query_result2 = pd.DataFrame(query_result2)
 query_result2 = query_result2.rename(columns={0: 'Country Name', 1:'Average Rating', 2:'Rating Count'})
 st.set_page_config(layout='wide')
-col1, col2 = st.columns([1,1])
-col1.write('Wine Ratings/Country')
-col2.write('Vintage Ratings/Country')
+col1, col2 = st.columns([1,2])
+col1.write('# Query Dataframes')
+col2.write('# Graphs')
 
 with col1:
     fig = px.scatter(
@@ -61,7 +61,9 @@ with col1:
         size=query_result2['Rating Count'],
         color_discrete_sequence=['red']
         )
+    st.write('Vintage Ratings per Country Dataframe')
     st.dataframe(query_result2, use_container_width=True)
+    st.write('Wine Ratings per Country Dataframe')
     st.dataframe(query_result, use_container_width=True)
 with col2:    
     fig2 = px.scatter(
@@ -71,7 +73,8 @@ with col2:
         size=query_result['Rating Count'],
         color_discrete_sequence=['purple'] 
         )
+    st.write('Vintage Ratings per Country Graph (Size=Rating Count)')
     st.plotly_chart(fig, use_container_width=True)
-    
+    st.write('Wine Ratings per Country Graph (Size=Rating Count)')
     st.plotly_chart(fig2, use_container_width=True)
 
