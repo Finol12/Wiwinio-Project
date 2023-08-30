@@ -6,3 +6,4 @@ seaborn==0.12.2
 statsmodels==0.14.0
 empiricaldist==0.6.8
 SQLAlchemy==2.0.20
+streamlit
