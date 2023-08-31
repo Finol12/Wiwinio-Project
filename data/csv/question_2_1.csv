@@ -1,4 +1,4 @@
-,Wine Name,Wine ID,Average Price (Euros),Rating Count,Average Rating,Country
+,name,id,AVG(vintages.price_euros),rating_count,avg_rating,country_name
 0,Tignanello,1652,430.5625,81378,4.5375000000000005,Italie
 1,Sassicaia,5078,990.2379999999998,69137,4.22,Italie
 2,Brut Champagne,86684,437.26599999999996,48835,4.58,France
