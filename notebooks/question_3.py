@@ -42,7 +42,7 @@ wines_per_taste_others = pd.DataFrame(new_row)
 wines_per_taste_top5_rest = pd.concat([wines_per_taste_top5, wines_per_taste_others])
 
 st.set_page_config(layout='wide')
-col1, col2 = st.columns([1,2])
+col1, col2 = st.columns([1,1])
 col1.write('# Query Dataframes')
 col2.write('# Graph')
 
