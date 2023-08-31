@@ -40,7 +40,10 @@ The **Wiwinio Project** is available from the [GitHum repository](https://github
 
 - Clone the [project repository](https://github.com/danielbauwens/Wiwinio-Project.git) to your local machine
 - Navigate to the root folder and browse by using the folder structiure described in the following section
-- Run `python main.py` to use Streamlit-based presentation
+- To use Streamlit-based presentation do as follows:
+    - Run `cd src` to move to *src* folder
+    - Run `streamlit run 1_??_Home.py` to open the web app
+    - Explore the analysis
 
 
 ### Folder structure
