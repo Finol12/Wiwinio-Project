@@ -34,7 +34,27 @@ The team had to answer several questions, like...
 5. Create a country leaderboard based on the wines ratings and popularity.
 
 
-## Instalation and Usage
+## Installation
+. Install the required libraries:
+
+   - [![python version](https://img.shields.io/badge/python-3.x-blue)](https://python.org)
+   - [![Pandas Version](https://img.shields.io/badge/pandas-2.0.3-green)](https://pandas.pydata.org/)
+   - [![NumPy Version](https://img.shields.io/badge/numpy-1.24.3-orange)](https://numpy.org/)
+   - [![Matplotlib Version](https://img.shields.io/badge/Matplotlib-3.7.1-red)](https://matplotlib.org/)
+   - [![Seaborn Version](https://img.shields.io/badge/seaborn-0.12.2-yellow)](https://seaborn.pydata.org/)
+   - [![plotly Version](https://img.shields.io/badge/plotly-5.15.0-black)](https://plotly.com/)
+   - [![ipykernel Version](https://img.shields.io/badge/ipykernel-6.23.1-grey)](https://pypi.org/project/ipykernel/)
+   - [![statsmodels Version](https://img.shields.io/badge/statsmodels-0.14.0-violet)](https://www.statsmodels.org/stable/index.html)
+   - [![empiricaldist version](https://img.shields.io/badge/empiricaldist-0.6.8-lime)](https://pypi.org/project/empiricaldist/)
+   - [![SQLAlchemy version](https://img.shields.io/badge/SQLAlchemy-2.0.20-darkred)](https://www.sqlalchemy.org/)
+   - [![streamlit version](https://img.shields.io/badge/streamlit-1.26.0-darkgreen)](https://streamlit.io/)
+
+   You can click on the badge links to learn more about each library and its specific version used in this project.
+   You can install them manually using `pip install <library name>` or just running `pip install -r requirements.txt`.
+
+
+
+## Usage
 
 The **Wiwinio Project** is available from the [GitHum repository](https://github.com/danielbauwens/Wiwinio-Project). PLease, follow the following instructions to clone and browse the project files.
 
