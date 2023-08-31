@@ -1,0 +1,17 @@
+,taste_combo,wine_count,avg_rating
+0,"citrus (citrus_fruit), coffee (oak), cream (microbio), green apple (tree_fruit), toast (microbio)",17,4.570588235294117
+1,"citrus (citrus_fruit), toast (microbio)",2,4.5
+2,"coffee (oak), cream (microbio)",48,4.479166666666667
+3,"citrus (citrus_fruit), coffee (oak), cream (microbio), toast (microbio)",13,4.469230769230769
+4,"citrus (citrus_fruit), cream (microbio), toast (microbio)",14,4.457142857142857
+5,citrus (citrus_fruit),15,4.4399999999999995
+6,"citrus (citrus_fruit), cream (microbio)",26,4.434615384615385
+7,coffee (oak),139,4.431654676258993
+8,"coffee (oak), cream (microbio), toast (microbio)",84,4.430952380952381
+9,"citrus (citrus_fruit), cream (microbio), green apple (tree_fruit), toast (microbio)",35,4.417142857142857
+10,cream (microbio),8,4.4125000000000005
+11,"citrus (citrus_fruit), cream (microbio), green apple (tree_fruit)",12,4.408333333333333
+12,"citrus (citrus_fruit), coffee (oak), toast (microbio)",1,4.4
+13,"citrus (citrus_fruit), green apple (tree_fruit)",2,4.4
+14,"coffee (oak), toast (microbio)",8,4.4
+15,toast (microbio),5,4.4
