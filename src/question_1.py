@@ -3,6 +3,9 @@ import pandas as pd
 import sqlite3
 import plotly.express as px
 
+connection = sqlite3.connect('../data/vivino.db')
+cursor = connection.cursor()
+
 query = """
     SELECT wines.id AS wine_id, 
            wines.name AS wine_name, 
@@ -20,8 +23,6 @@ query = """
     ORDER BY wine_avg_rating DESC, wine_ratings_count DESC;
 """
 query = pd.read_sql_query(query, connection)
-
-
 
 query2 = """
     SELECT wines.id AS wine_id, 
@@ -47,10 +48,12 @@ query2 = """
 
 query2 = pd.read_sql_query(query2, connection)
 
+st.set_page_config(layout='wide')
 
-
-col1, col2 = st.columns(2)
+col1, col2 = st.columns([1,1])
 with col1:
+    st.write('# Most expensive')
     st.dataframe(query)
 with col2:
+    st.write('# Least expensive')
     st.dataframe(query2)
