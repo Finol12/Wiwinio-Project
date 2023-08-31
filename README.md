@@ -5,7 +5,7 @@ This group project is a part of **AI Bootcamp** at [<\/becode>](https://becode.o
  
 ## Description
 
-### Objectives
+### Mission Objectives
 
 A learning challenge, **Wiwinio Project** targetted to acquire and consolidate knowledge in the following subjects:
 
@@ -23,16 +23,24 @@ A sample database ([SQLite](https://www.sqlite.org/index.html)), reflecting the 
 
 The team had to answer several questions, like...
 
-1. xxx
+1. Highlight 10 wines to increase the sales. Which ones should be choosen and why?
 
-2. xxx
+2. With the marketing budget for this year, which country should be prioritzed and why?
 
-3. xxx
+3. Analyse the special tastes and their combinations.
+
+4. Select top 5 wines produced from the most popular grapes.
+
+5. Create a country leaderboard based on the wines ratings and popularity.
 
 
-## Instalation
+## Instalation and Usage
 
+The **Wiwinio Project** is available from the [GitHum repository](https://github.com/danielbauwens/Wiwinio-Project). PLease, follow the following instructions to clone and browse the project files.
 
+- Clone the [project repository](https://github.com/danielbauwens/Wiwinio-Project.git) to your local machine
+- Navigate to the root folder and browse by using the folder structiure described in the following section
+- Run `python main.py` to use Streamlit-based presentation
 
 
 ### Folder structure
@@ -58,37 +66,18 @@ The project folder is organized as follows:
 
 ```
 
-
-## Usage
-
-
-## ...
-
-
 ## Contributors
 
-### Fatemeh Loni
-
-Team Lead & Data Analyst
-
-[LinkedIn](https://www.linkedin.com/in/fatemeh-loni-3b4960226/) | [GitHub](https://github.com/Finol12)
+**Fatemeh Loni** (Team Lead & Data Analyst) [LinkedIn](https://www.linkedin.com/in/fatemeh-loni-3b4960226/) | [GitHub](https://github.com/Finol12)
 
 
-### Daniel Bauwens
-
-Data Engineer
-
-[LinkedIn](https://www.linkedin.com/in/daniel-bauwens-5515a8256/) | [GitHub](https://github.com/danielbauwens)
+**Daniel Bauwens** (Data Engineer) [LinkedIn](https://www.linkedin.com/in/daniel-bauwens-5515a8256/) | [GitHub](https://github.com/danielbauwens)
 
 
-### Vitaly Shalem
-
-Data Analyst
-
-[LinkedIn](https://www.linkedin.com/in/vitaly-shalem-26aab265/) | [GitHub](https://github.com/vitaly-shalem)
+**Vitaly Shalem** (Data Analyst) [LinkedIn](https://www.linkedin.com/in/vitaly-shalem-26aab265/) | [GitHub](https://github.com/vitaly-shalem)
 
 
-## PLace and Time
+## Place and Time
 
 [BeCode.org](https://becode.org/) (Ghent, Belgium)
 
