@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,name,ratings_average,ratings_count,year,price_euros
 0,60 Sessantanni Old Vines Primitivo di Manduria,4.5,94289,2018,24.75
 1,Limited Edition 10 Vendemmie,4.5,9453,N.V.,34.2
@@ -9,3 +10,16 @@
 7,Terrasse à l'Ombre Côtes du Rhône,4.5,819,2018,34.95
 8,Vinhas Velhas Tinto,4.5,736,2019,29.95
 9,Ice Wine de Purcari,4.5,722,2017,33.17
+=======
+,id,name,ratings_average,ratings_count,year,price_euros
+0,1611255,Cabernet Sauvignon,4.8,2941,2015,1558.75
+1,1187886,Amarone della Valpolicella Classico Riserva,4.8,587,2011,1046.25
+2,6534388,Fratini Bolgheri Superiore,4.8,153,2018,262.6
+3,5806244,Mágico,4.8,146,2019,480.0
+4,7266631,Cristal Rosé Vinothèque,4.8,88,2000,1600.0
+5,9330771,Batard-Montrachet Grand Cru,4.8,34,2020,1149.5
+6,77137,Unico,4.7,45140,2012,410.0
+7,77137,Unico,4.7,45140,2013,445.0
+8,77137,Unico,4.7,45140,1965,1040.6
+9,1153863,Sauternes,4.7,44126,2005,928.3
+>>>>>>> 2db7a75770c3b0f9a8648cd6ca6ab6f637637304
