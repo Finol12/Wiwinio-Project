@@ -9,7 +9,7 @@ This group project is a part of **AI Bootcamp** at [<\/becode>](https://becode.o
 
 A learning challenge, **Wiwinio Project** targetted to acquire and consolidate knowledge in the following subjects:
 
-- SQL and Datatbases
+- SQL and Databases
 - Data Analysis
 - Data Analysis deployment using [Tableau](https://www.tableau.com) and/or [Streamlit](https://streamlit.io/)
 
