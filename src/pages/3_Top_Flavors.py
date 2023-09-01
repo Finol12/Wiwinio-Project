@@ -43,8 +43,8 @@ wines_per_taste_top5_rest = pd.concat([wines_per_taste_top5, wines_per_taste_oth
 
 st.set_page_config(layout='wide')
 col1,col, col2 = st.columns([2,1,2])
-col1.write('# Query Dataframes')
-col2.write('# Graph')
+col1.write('# Wines with taste combos')
+col2.write('# Top 5 combos')
 
 with col1:
     fig = px.pie(
