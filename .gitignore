@@ -1,5 +1,8 @@
 # byte-compiled / optimized / DLL files
 __pycache__/
 
+# csv files for tableau
+csv/
+
 # virtual environment
 _project_env/

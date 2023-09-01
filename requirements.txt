@@ -4,7 +4,5 @@ ipykernel==6.23.1
 matplotlib==3.7.1
 seaborn==0.12.2
 plotly==5.15.0
-statsmodels==0.14.0
-empiricaldist==0.6.8
 SQLAlchemy==2.0.20
 streamlit==1.26.0
