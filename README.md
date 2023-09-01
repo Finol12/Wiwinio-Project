@@ -91,7 +91,7 @@ The **Wiwinio Project** is available from the [GitHub repository](https://github
     You can install them manually using `pip install <library name>` or just running `pip install -r requirements.txt`.
 
 
-## Usage
+### Usage
 
 - To use Streamlit-based presentation do as follows:
     - Run `cd src` to move to *src* folder
@@ -99,7 +99,7 @@ The **Wiwinio Project** is available from the [GitHub repository](https://github
     - Explore the analysis
 
 
-### Folder structure
+## Repository folder structure
 
 The project folder is organized as follows:
 
