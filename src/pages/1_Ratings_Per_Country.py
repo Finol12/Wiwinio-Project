@@ -7,53 +7,52 @@ connection = sqlite3.connect('.././data/vivino.db')
 cursor = connection.cursor()
 
 query = """
-    SELECT wines.id AS wine_id, 
-           wines.name AS wine_name, 
-           wines.ratings_average AS wine_avg_rating, 
-           wines.ratings_count AS wine_ratings_count, 
-           COUNT(vintages.year) AS vintages_number, 
-           ROUND(AVG(vintages.price_euros), 2) AS average_price,
-           countries.name AS country_name
+    SELECT wines.id AS WineID, 
+           wines.name AS Name, 
+           wines.ratings_average AS Average_Rating, 
+           wines.ratings_count AS Popularity, 
+           ROUND(AVG(vintages.price_euros), 2) AS Average_Price,
+           countries.name AS Country
     FROM wines
         JOIN vintages ON wines.id = vintages.wine_id
         JOIN regions ON wines.region_id = regions.id
         JOIN countries ON regions.country_code = countries.code
     WHERE wines.ratings_count > 10000
-    GROUP BY wines.id
-    ORDER BY wine_avg_rating DESC, wine_ratings_count DESC;
+    GROUP BY WineID
+    ORDER BY Average_Rating DESC, Popularity DESC
+    LIMIT 10;
 """
 query = pd.read_sql_query(query, connection)
 
 query2 = """
-    SELECT wines.id AS wine_id, 
-           wines.name AS wine_name, 
-           wines.ratings_average wine_avg_rating, 
-           wines.ratings_count wine_ratings_count, 
-           COUNT(vintages.year) AS vintages_number, 
-           ROUND(AVG(vintages.price_euros), 2) AS average_price,
-           countries.name AS country_name
+    SELECT wines.id AS WineID, 
+           wines.name AS Name, 
+           wines.ratings_average Average_Rating, 
+           wines.ratings_count Popularity, 
+           ROUND(AVG(vintages.price_euros), 2) AS Average_Price,
+           countries.name AS Country
     FROM wines
         JOIN vintages ON wines.id = vintages.wine_id
         JOIN regions ON wines.region_id = regions.id
         JOIN countries ON regions.country_code = countries.code
     WHERE vintages.price_euros <= 50 AND
           wines.ratings_count > 10000 
-    GROUP BY wines.id
-    ORDER BY wine_avg_rating DESC, 
-             wine_ratings_count DESC,
-             vintages.price_euros ASC
-    -- LIMIT 10
+    GROUP BY WineID
+    ORDER BY Average_Rating DESC, 
+             Popularity DESC,
+             Average_Price ASC
+    LIMIT 10
     ;
 """
 
 query2 = pd.read_sql_query(query2, connection)
 
 st.set_page_config(layout='wide')
-
-col1, col2 = st.columns([1,1])
+col1, col2 = st.columns([1,2])
 with col1:
-    st.write('# Most expensive')
-    st.dataframe(query)
+    st.write(' ')
 with col2:
-    st.write('# Least expensive')
+    st.write('# Special Occasion Wines')
+    st.dataframe(query)
+    st.write('# Everyday Favorite Wines')
     st.dataframe(query2)

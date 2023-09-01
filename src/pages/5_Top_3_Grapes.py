@@ -118,7 +118,7 @@ with col1:
         grapes_top3_rest,
         values=grapes_top3_rest['Total Used/Country'],
         names=grapes_top3_rest['Grape Name'],
-        height=(350)
+        height=(400)
         )
     fig2 = px.scatter(
         query_sauvignon,
