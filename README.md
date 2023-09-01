@@ -18,6 +18,10 @@ A learning challenge, **Wiwinio Project** targetted to acquire and consolidate k
 
 A sample database ([SQLite](https://www.sqlite.org/index.html)), reflecting the assortiment, ratings, and sales information for the Belgian market, from the wine selling website ([Vivino](https://www.vivino.com/BE/en/)) was provided.
 
+#### Database structure
+
+![Database structure](data/chart/vivino_db_diagram_horizontal.png)
+
 
 ### Questions to be answered
 
@@ -72,7 +76,9 @@ The project folder is organized as follows:
     ├── data/
     │   └── < data files (e.g. db, csv, pickles, etc.) >
     ├── src/
-    │   └── < source files >
+    │   └── pages/
+    │   │   └── < streamlit pages > 
+    │   └── 1_🌐_Home.py
     ├── notebooks/
     │   └── < notebooks for data exploration >
     ├── output/
