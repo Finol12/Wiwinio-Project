@@ -4,7 +4,7 @@ import pandas as pd
 import sqlite3
 import plotly.express as px
 
-connection = sqlite3.connect('../data/vivino.db')
+connection = sqlite3.connect('.././data/vivino.db')
 cursor = connection.cursor()
 
 query_5_tastes_clean = """
