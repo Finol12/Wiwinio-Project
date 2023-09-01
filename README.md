@@ -34,6 +34,39 @@ The team had to answer several questions, like...
 5. Create a country leaderboard based on the wines ratings and popularity.
 
 
+## Analysis
+
+The analysis is done and saved in Jypiter Notebooks.
+
+Here are some plots to illustrate some findings:
+
+### Top wines by Country
+
+![Top wines by Country](output/question_2_c.png)
+
+
+### Grape popularity
+
+![Grape popularity](output/question_4_a.png)
+
+
+### Special tastes distribution
+
+![Special tastes distribution](output/question_3_b.png)
+
+
+### Combinations of tastes: Top frequent Combo
+
+![Combinations of tastes: Top frequent Combo](output/question_3_a.png)
+
+
+## Deliverables
+
+The results are delivered as a [Streamlit](https://streamlit.io/)-based web app.
+
+Please see *Usage* instructions below.
+
+
 ## Installation
 
 The **Wiwinio Project** is available from the [GitHub repository](https://github.com/danielbauwens/Wiwinio-Project). PLease, follow the following instructions to clone and browse the project files.
