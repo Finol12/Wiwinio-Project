@@ -1,4 +1,4 @@
-# Wiwinio Project
+# Vivinio Project
 
 This group project is a part of **AI Bootcamp** at [<\/becode>](https://becode.org/)
 
